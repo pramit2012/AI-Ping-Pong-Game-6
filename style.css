@@ -1,0 +1,44 @@
+body
+{
+  background-color: aqua;
+  background-size: cover;
+}
+.heading {
+    width: 100%;
+    text-align: center;
+}
+.heading h3 {
+    display: inline;
+}
+.heading button {
+  float: right;
+  border: 1px solid white;
+}
+#start, #status {
+  font-size: 30px;
+  width: 200px;
+  color:aquamarine;
+}
+#restart {
+  font-size: 30px;
+}
+.modal-dialog {
+  height: 100%;
+  font-size: 20px;;
+}
+.copy_right_footer {
+  position: fixed;
+  color: #6c757d;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  line-height: 3;
+  text-align: center;
+  font-size: 30px;
+}
+canvas {
+  border: 2px solid blue;
+  border-radius: 15px;
+  margin-top: 130px;
+  box-shadow: 5px 5px 5px greenyellow;
+}
